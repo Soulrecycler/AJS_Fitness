@@ -1,0 +1,108 @@
+
+#signup{
+	width:360px;
+	padding:10% 0 0 ;
+	margin: auto;
+	opacity: 0.8;
+	/*min-height: 400px;
+	min-width: 400px;*/
+}
+#login{
+	display: none;
+	margin-right: 500px;
+	margin-top: 100px;
+
+}
+body{
+	background-image: url('gym1.jpg') !important;
+
+}
+/*
+.form{
+	position: relative;
+	z-index: 1;
+
+	max-width: 360px;
+	background-color: #e8491d;
+	margin: 0 auto 100px;
+	padding:45px;
+	text-align: center;
+}
+
+.form input{
+	outline: 1;
+	border:0;
+	width:100%;
+	margin: 5px -10px 10px;
+	padding: 15px;
+	font-size:10px;
+}
+
+#butt2{
+	border:0;
+	margin-top: 20px;
+	background-color: #35424a;
+	color:#e8491d;
+	width:50%;
+	padding: 20px;
+	cursor: pointer;
+}
+
+
+#message{
+	color:#35424a;
+	font-size:12px;
+	margin:0 0 15px;
+	padding-top: 20px;
+	font-weight: bold;
+
+}
+
+#message a{
+	text-decoration: none;
+	color: #922B21;
+}
+
+#login{
+	display: none;
+
+}
+
+.tab-panels ul {
+    margin: 0;
+    padding: 0;
+}
+.tab-panels ul li {
+    list-style-type: none;
+    display: inline-block;
+    background: #999;
+    margin: 0;
+    padding: 3px 10px;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    font-weight: 200;
+    cursor: pointer;
+
+}
+.tab-panels ul li:hover {
+    color: #fff;
+    background: #666;
+}
+
+.tab-panels ul li.active {
+    color: #fff;
+    background: #666;
+}
+
+.tab-panels .panel {
+    display:none;
+    background: #c9c9c9;
+    padding: 30px;
+    border-radius: 0 0 10px 10px;
+}
+
+.tab-panels .panel.active {
+    display:block;
+    background: url("gym1.jpg") ;
+	min-height: 100%;
+}

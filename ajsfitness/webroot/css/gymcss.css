@@ -1,0 +1,247 @@
+body,html{
+	font-family: Arial,Helvetica,sans-serif;
+	padding:0;
+	margin:0;
+	background-color: #f4f4f4;
+	height:100%;
+ 	line-height:1.8em;
+}s
+
+/*********************************************************************************************************************************/
+/*divs*/
+.container{
+	overflow: hidden;
+
+}
+/*********************************************************************************************************************************/
+/*header*/
+header{
+	background-color: #35424a;
+	color:white;
+	padding-top: 30px;
+	min-height: 70px; /*inorder to keep the resposivness of the page we set it to min height*/
+	border-bottom: #e8491d 5px solid;
+}
+
+
+
+/* menu tags */
+header a{
+	color:#e8491d;
+	/*border:#e8491d 1px solid;*/
+	text-decoration: none; /* to remove the underline of the list */
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+
+header ul{
+	margin:0; /*since unordered list has margin and paddings we have to remove it inorder to set the menu horizontal*/
+	padding:0;
+}
+
+header li{
+ float: left;
+ display:inline;
+ padding:0 20px 0 20px;/* top  right(20px) bottom left(20px)*/
+}
+
+#branding{
+	float:left;
+}
+
+nav{
+	float: right;
+	
+}
+
+header h1{
+	float:right;
+	padding-left: 20px;
+}
+
+header a:hover{
+	color :#900C3F  ;
+	font-weight: bold;
+}
+
+img{
+	width:100px;
+	height:80px;
+	margin-top: -20px;
+}
+
+
+/*********************************************************************************************************************************/
+/*Showcase*/
+#showcase{
+	min-height: 100%;
+	background: url("3.jpg");/* x-axis and y-axis*/
+	background-position:center;
+	  background-size:cover;
+	  background-repeat:no-repeat;
+
+	color:white;
+
+
+}
+/*#showcase h1{
+	margin-top: 80px;
+	margin-bottom: 10px;
+}*/
+
+
+ /*signin*/
+ #signin{
+ 	background-color: #35424a;
+ 	color:white;
+ /*	border-bottom: #e8491d 2px solid;
+ 	border-top: #e8491d 2px solid;*/
+
+
+
+ }
+
+ .details{
+ 	margin:0;
+
+ }
+
+/* #sign1{
+ 	color:white;
+ 	font-size: 20px;
+ 	font-weight: bold;
+ 	top:50px;
+ 	position:relative;
+
+ }
+
+
+ form{
+
+float:right;
+
+ }
+
+ .f1
+ {
+ 	display:block;
+ 	clear:left;
+ 	padding-bottom:5px;
+ 	margin:3px;
+ 	border:none;
+ }
+
+ .butt{
+ 	color:black;
+ 	background-color: #e8491d;
+ 	border: none;
+
+ }
+
+ #button{
+ 	padding-left: 110px;
+ }*/
+
+
+
+#para1{
+	/*padding-top: 40px;*/
+	background-image: url("battle.jpeg");
+	min-height: 600px;
+
+
+}
+
+#para2{
+	/*padding-top: 80px;*/
+	background-image: url("jump.png");
+	min-height: 600px;
+
+}
+
+#para3{
+	/*padding-top: 80px;*/
+	background-image: url("gym2.jpg");
+	min-height: 600px;
+	margin-top:-20px;
+}
+
+#para1, #para2, #para3{
+	position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+  text-align: center;
+  border-top:#e8491d 2px solid ;
+
+}
+
+.container h1{
+	margin:0;
+}
+
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color:#282e34;
+  color:white;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+/*********************************************************************************************************************************/
+ /*footer*/
+
+ footer{
+ 	background-color: #35424a;
+ }
+ footer p{
+ 	text-align: center;
+ 	color:  white ;
+ }
+
+ #icons ul{
+ 	margin:0;
+ 	padding: 0;
+ 	text-align: center;
+
+ }
+
+
+li{
+ 	white-space: nowrap;
+	padding:0 20px 0 20px;
+	display: inline;
+
+ }
+
+ #icons a{
+
+
+ 	font-size: 20px;
+ 	text-decoration: none;
+ 	color:  #3498DB ;
+ 	padding-top: 20px;
+
+ }
+
+
+#top{
+  background-color: #e8491d;
+ 
+}

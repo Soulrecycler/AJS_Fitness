@@ -1,0 +1,59 @@
+#h{
+background-color:gray;
+
+
+
+}
+
+#drop{
+	align:center;
+	width:100%;
+}
+
+#first{
+	position:absolute;
+	width:20%;
+}
+
+#second{
+	padding-left:25%;
+	float:left;
+
+}
+
+#third{
+	padding-left:5%;
+	float:left;
+}
+
+#D1
+{
+	width:100%;
+}
+
+#D2
+{
+	width:100%;
+}
+
+#D3
+{
+	width:100%;
+}
+
+.w3-btn{
+	float:left;
+	width:100%;
+}
+
+ul{
+	list-style-type: circle;
+	text-align:left;
+	padding:3%px;
+}
+
+p{
+	font-size: 14px;
+	text-align:left;
+	font-weight:bold;
+}
